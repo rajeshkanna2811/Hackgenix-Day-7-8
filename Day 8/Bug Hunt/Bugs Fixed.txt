@@ -1,0 +1,33 @@
+Bugs Fixed
+
+1. Missing comma between cart objects.
+
+2. Incorrect loop condition (`<=` instead of `<`).
+
+3. Incorrect quantity property reference.
+
+4. Missing return statement in function.
+
+5. Incorrect use of toFixed() on undefined result.
+
+6. Missing return in map function.
+
+7. Used assignment instead of comparison in filter.
+
+8. Incorrect reduce calculation.
+
+9. Incorrect sorting condition.
+
+10. Case mismatch in find method.
+
+11. Copy variable refers to the original array.
+
+12. Incorrect use of `this` in arrow function.
+
+13. Forgot to call the greet function.
+
+14. Invalid JSON format.
+
+15. Used length() instead of length.
+
+16. Incorrect array index when accessing the last item.

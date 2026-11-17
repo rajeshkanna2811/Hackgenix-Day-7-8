@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Dashboard</title>
+</head>
+<body>
+
+    <h1>Student Marks Dashboard</h1>
+
+    <button id="allBtn">All</button>
+    <button id="passedBtn">Passed</button>
+    <button id="sortBtn">Sort by total</button>
+
+    <br><br>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Total</th>
+                <th>Average</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody id="board"></tbody>
+    </table>
+
+    <h2>JSON Report</h2>
+
+    <pre id="json"></pre>
+
+    <h3>Paste JSON</h3>
+
+    <textarea id="jsonInput" rows="6" cols="50"></textarea>
+
+    <br><br>
+
+    <button id="parseBtn">Check JSON</button>
+
+    <p id="jsonMessage"></p>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

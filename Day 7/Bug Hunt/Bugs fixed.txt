@@ -1,0 +1,29 @@
+Bugs fixed
+
+1. Used `=` instead of `===` in the if condition.
+
+2. Incorrect discount calculation.
+
+3. Missing closing parenthesis in console.log.
+
+4. Extra semicolon after the for loop.
+
+5. Used the loop variable outside its scope.
+
+6. Missing count++ in the while loop, causing an infinite loop.
+
+7. Missing break statement in switch case A.
+
+8. Spelling mistake in the default keyword.
+
+9. Used grade without declaring the variable.
+
+10. Incorrect age condition in the if statement.
+
+11. Used Math.Random() instead of Math.random().
+
+12. Variable name started with a number (2ndName).
+
+13. Mismatched quotation marks in the user variable.
+
+14. Tried to change the value of a const variable.
